@@ -28,4 +28,4 @@ This schema ensures data integrity and supports the core functionality of the Pl
 ## Table Diagram
 To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
 
-![Playzy Database Table](/Ex1-1.png)
+![Playzy Database Table](Playzy-Payment-App/Ex1-1.png)
