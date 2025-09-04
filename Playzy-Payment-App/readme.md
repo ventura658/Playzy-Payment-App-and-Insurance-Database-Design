@@ -28,13 +28,4 @@ This schema ensures data integrity and supports the core functionality of the Pl
 ## Table Diagram
 To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
 
-![Playzy Database Table](path/to/your/image.png)
-
-### How to Add Your Image:
-- Replace `path/to/your/image.png` with the actual path to your uploaded image file (e.g., `images/playzy_erd.png` if you upload it to a folder named "images").
-- If you haven't uploaded the image yet:
-  1. Upload your image file to the repository (e.g., in a folder like "images").
-  2. Update the path in this Markdown file to match the file's location (e.g., `images/playzy_erd.png`).
-- Once uploaded, the image will display directly in the rendered Markdown on GitHub.
-
-If you need to update this file with more details or additional images, you can edit it directly in GitHub.
+![Playzy Database Table](Playzy-Payment-App/Ex1-1.mwb)
