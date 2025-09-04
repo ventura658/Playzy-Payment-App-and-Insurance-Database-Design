@@ -1,1 +1,40 @@
 
+# Assignment 1: Playzy Database Schema Solution
+
+## Overview
+This document outlines the database design for the Playzy payment application. It includes the key tables, their attributes, data types, primary keys, foreign keys, and relationships as described in the solution.
+
+## Database Tables
+
+- **Customers Table**: Stores information about customers, including the AFM (Tax Identification Number), full name, date of birth, phone number, and email. The primary key is the AFM.
+
+- **Merchants Table**: Provides basic information about merchants, such as the name and a unique key (e.g., a merchant ID).
+
+- **Banks Table**: Provides basic information about banks, such as the name and a unique key (e.g., a bank ID).
+
+- **Transactions Table**: Stores information about transactions, including a unique ID key, the transaction date, the amount, and the three involved parties (customer, bank, and merchant). Foreign keys include the wallet address, the bank key, and the merchant key. The amount is defined as a DECIMAL with 10 significant digits and a default value of 0.00.
+
+- **DigitalWallets Table**: Contains information about each customer's digital wallet, such as the current balance, reward points, and wallet address. The foreign key is the customer's AFM. The balance is a DECIMAL with 10 significant digits and a default value of 0.00, while the points are an INT with a default value of 0.
+
+- **UserCredentials Table**: Consists of a unique username and the password used by the user to log in to the application. The foreign key is the customer's AFM.
+
+## Relationships
+- A transaction is associated with exactly 1 digital wallet, 1 merchant, and 1 bank.
+- Each customer has exactly 1 username.
+- Each customer has exactly 1 digital wallet.
+
+This schema ensures data integrity and supports the core functionality of the Playzy application.
+
+## Table Diagram
+To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
+
+![Playzy Database Table](path/to/your/image.png)
+
+### How to Add Your Image:
+- Replace `path/to/your/image.png` with the actual path to your uploaded image file (e.g., `images/playzy_erd.png` if you upload it to a folder named "images").
+- If you haven't uploaded the image yet:
+  1. Upload your image file to the repository (e.g., in a folder like "images").
+  2. Update the path in this Markdown file to match the file's location (e.g., `images/playzy_erd.png`).
+- Once uploaded, the image will display directly in the rendered Markdown on GitHub.
+
+If you need to update this file with more details or additional images, you can edit it directly in GitHub.
