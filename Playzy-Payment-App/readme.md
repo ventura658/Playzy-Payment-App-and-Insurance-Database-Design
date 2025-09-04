@@ -4,6 +4,11 @@
 ## Overview
 This document outlines the database design for the Playzy payment application. It includes the key tables, their attributes, data types, primary keys, foreign keys, and relationships as described in the solution.
 
+## Table Diagram
+To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
+
+![Playzy Database Table](https://github.com/ventura658/Playzy-Payment-App-and-Insurance-Database-design/blob/339f269c0a4b230628f5c4d4312912948b190290/Playzy-Payment-App/Ex1-1.png)
+
 ## Database Tables
 
 - **Customers Table**: Stores information about customers, including the AFM (Tax Identification Number), full name, date of birth, phone number, and email. The primary key is the AFM.
@@ -24,8 +29,3 @@ This document outlines the database design for the Playzy payment application. I
 - Each customer has exactly 1 digital wallet.
 
 This schema ensures data integrity and supports the core functionality of the Playzy application.
-
-## Table Diagram
-To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
-
-![Playzy Database Table](https://github.com/ventura658/Playzy-Payment-App-and-Insurance-Database-design/blob/339f269c0a4b230628f5c4d4312912948b190290/Playzy-Payment-App/Ex1-1.png)
