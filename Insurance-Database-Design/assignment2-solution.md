@@ -6,7 +6,7 @@ This document outlines the database design for the insurance system. It includes
 ## Table Diagram
 To visualize the database schema, refer to the image below. This could be an ERD (Entity-Relationship Diagram) or a table structure diagram.
 
-![Insurance Database Table](path/to/your/image.png)
+![Insurance Database Table](https://github.com/ventura658/Playzy-Payment-App-and-Insurance-Database-Design/blob/5d7e6924a9b529445a777672a774402945cfeac3/Insurance-Database-Design/Ex1-2.png)
 
 
 ## Database Tables
